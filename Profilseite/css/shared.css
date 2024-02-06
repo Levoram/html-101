@@ -1,0 +1,54 @@
+html {
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+}
+h1 {
+  font-family: "Honk", system-ui;
+}
+
+a {
+  text-decoration: underline;
+  color: black;
+}
+
+.card {
+  height: 250px;
+  width: 250px;
+  padding: 2rem;
+  margin: 0 4px 4px 4px;
+}
+
+.grayMed {
+  background-color: #ccc;
+}
+.whitelight {
+  background-color: whitesmoke;
+}
+
+.teal {
+  background-color: teal;
+}
+
+#hero {
+  background-image: url(/images/Nico_Kuechler_300x300.webp);
+  background-size: cover;
+  background-position: center;
+  width: 300px;
+  height: 350px;
+  margin-top: 2rem;
+}
+
+.wrapper {
+  margin: 2rem;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding-bottom: 2rem 0 2rem 0;
+}
